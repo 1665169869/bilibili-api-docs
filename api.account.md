@@ -38,7 +38,7 @@ https://api.bilibili.com/x/member/web/exp/reward
 |re_version|false|?|未知用途|
 |pn|false|int|结果分页选择 默认为第1页|
 |ps|false|int|单页返回的记录条数，默认为20。(没那么多黑名单，不知道是否有最大限制)|
-|jsonp|false|string|填写jsonp即可|
+|jsonp|false|jsonp|填写jsonp即可 可以不填|
 
 ## 我的硬币
 ### 硬币余额
@@ -68,7 +68,7 @@ https://api.bilibili.com/x/member/web/exp/log
 
 |字段| 必选|类型|说明|
 |----|----|----|----|
-|jsonp|false|string|填写jsonp即可|
+|jsonp|false|jsonp|填写jsonp即可|
 
 ### Cookie
 

@@ -1,9 +1,13 @@
 # 搜索
 
 ### 调用地址
+- 认证方式：[Cookie（SESSDATA）](#cookie);
 
-https://api.bilibili.com/x/web-interface/search/type
+- 鉴权方式：[Cookie（SESSDATA）](#cookie)方式时需要验证[Referer](#Referer)为 .bilibili.com域名下
 
+> https://api.bilibili.com/x/web-interface/search/type
+
+*请求方式：GET*
 
 ### 参数
 |字段|必选|类型|说明|
@@ -27,7 +31,7 @@ https://api.bilibili.com/x/web-interface/search/type
 |damku|按弹幕数从高至低排序|
 |stow|按收藏数从高至低排序|
 
-### 必要 Referer 参数
+### Referer
 |字段|必选|类型|说明|
 |----|----|----|----|
 |Referer|true|string|来源地址，必填 可填写https://search.bilibili.com|
